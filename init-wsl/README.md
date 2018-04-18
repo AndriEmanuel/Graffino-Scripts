@@ -14,47 +14,17 @@ To get started, you just need to have the Windows Subsystem for Linux. If you do
 
 * zsh
 * oh-my-zsh
+* git
 * node
 * npm
+* yarn
 * php 7.2
+* composer
+* laravel
 * mariadb
 * mc
 * ngrok
-* composer
-* laravel
-* yarn
-* git
 * build essential(gcc, make, etc.)
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Authors
 [**Graffino**](https://github.com/Graffino) - [**graffino.com**](http://graffino.com)
