@@ -6,7 +6,9 @@ sudo apt autoremove -y
 sudo apt install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # Install git
-sudo apt install git
+sudo apt install git 
+# Install build-essential(containc gcc, make and some other useful stuff)
+sudo apt install -y build-essential
 # Install N for node version managing
 curl -L https://git.io/n-install | bash
 # Install yarn
@@ -38,5 +40,3 @@ sudo service mysql start
 sudo apt install mc
 # Install ngrok for HTTP tunneling
 npm i -g ngrok
-# Install build-essential(containc gcc, make and some other useful stuff)
-sudo apt install -y build-essential
