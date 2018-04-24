@@ -25,11 +25,6 @@ php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 # Install laravel
 composer global require "laravel/installer"
-# Install mariadb
-sudo add-apt-repository  -y ppa:mysql-ubuntu/mariadb-10.1
-sudo apt update -y && sudo apt upgrade -y
-sudo apt-get install -y mariadb-server
-sudo usermod -d /var/lib/mysql/ mysql
 # Check if mysql service is working
 sudo service mysql start
 # Install midnight commander(a GUI for exploring folders)
