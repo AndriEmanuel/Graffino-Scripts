@@ -2,9 +2,6 @@
 sudo apt update && sudo apt upgrade -y
 sudo apt autoremove -y
 
-# Install zsh and oh-my-zsh
-sudo apt install -y zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)";exit;
 # Install git
 sudo apt install -y git 
 # Install build-essential(containc gcc, make and some other useful stuff)
@@ -39,3 +36,6 @@ sudo service mysql start
 sudo apt install -y mc
 # Install ngrok for HTTP tunneling
 npm i -g ngrok
+# Install zsh and oh-my-zsh
+sudo apt install -y zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)";
