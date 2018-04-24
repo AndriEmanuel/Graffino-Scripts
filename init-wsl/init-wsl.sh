@@ -36,3 +36,5 @@ npm i -g ngrok
 # Install zsh and oh-my-zsh
 sudo apt install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)";
+# Add apps installed with composer to path
+echo "export PATH=$PATH:$HOME/.composer/vendor/bin" >> .zshrc
