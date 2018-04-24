@@ -25,8 +25,10 @@ php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 # Install laravel
 composer global require "laravel/installer"
-# Check if mysql service is working
+# Install mariadb
+sudo apt install -y mariadb-server
 sudo service mysql start
+sudo mysql -e "CREATE USER '$USER' IDENTIFIED BY '';"
 # Install midnight commander(a GUI for exploring folders)
 sudo apt install -y mc
 # Install ngrok for HTTP tunneling
