@@ -30,7 +30,7 @@ sudo apt install -y mariadb-server
 sudo service mysql start
 sudo mysql -e "CREATE USER '$USER'@'localhost' IDENTIFIED BY '';"
 sudo mysql -e "GRANT ALL PRIVILEGES ON * . * TO '$USER'@'localhost';"
-sudo mysql -e "FLUSH PRIVILEDGES;"
+sudo mysql -e "FLUSH PRIVILEGES;"
 # Install midnight commander(a GUI for exploring folders)
 sudo apt install -y mc
 # Install ngrok for HTTP tunneling
