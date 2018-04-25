@@ -28,7 +28,9 @@ composer global require "laravel/installer"
 # Install mariadb
 sudo apt install -y mariadb-server
 sudo service mysql start
-sudo mysql -e "CREATE USER '$USER' IDENTIFIED BY '';"
+sudo mysql -e "CREATE USER '$USER'@'localhost' IDENTIFIED BY '';"
+sudo mysql -e "GRANT ALL PRIVILEGES ON * . * TO '$USER'@'localhost';"
+sudo mysql -e "FLUSH PRIVILEDGES;"
 # Install midnight commander(a GUI for exploring folders)
 sudo apt install -y mc
 # Install ngrok for HTTP tunneling
